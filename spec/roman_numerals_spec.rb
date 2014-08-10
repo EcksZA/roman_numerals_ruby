@@ -8,4 +8,7 @@ describe "roman_numeral" do
     it "outputs roman numerals for a large number that does not include the digits 4 and 9 in it" do
     roman_numeral(2563).should eq("MMDLXIII")
   end
+  it "outputs roman numerals for all numbers, except those with a 9 digit" do
+    roman_numeral(464).should eq("CDLXIV")
+  end
 end
