@@ -13,7 +13,11 @@ contact the author via [email](xmfuko@gmail.com).
 
 OPERATING INSTRUCTION
 ---------------------
+To use the program, follow the steps below:
 
+1. Clone the program on your terminal from its [repository](https://github.com/EcksZA/roman_numerals_ruby).
+2. In the project directory, input the following: *ruby user_interface.rb*
+3. Follow program instructions.
 
 
 AUTHOR
