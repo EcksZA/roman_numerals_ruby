@@ -11,4 +11,7 @@ describe "roman_numeral" do
   it "outputs roman numerals for all numbers, except those with a 9 digit" do
     roman_numeral(464).should eq("CDLXIV")
   end
+  it "outputs roman numerals for all numbers, including those with 4 and 9 digit" do
+    roman_numeral(3949).should eq("MMMCMXLIX")
+  end
 end
